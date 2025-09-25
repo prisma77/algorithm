@@ -1,3 +1,5 @@
+package basic;
+
 import java.util.Scanner;
 
 public class Max {
@@ -10,7 +12,7 @@ public class Max {
         System.out.print("write c: ");
         int c = sc.nextInt();
 
-        System.out.print("Max: ");
+        System.out.print("basic.Max: ");
         if (a > b) {
             if (a > c) {
                 System.out.println(a);
