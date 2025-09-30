@@ -1,4 +1,4 @@
-package basic;
+package linkedlist;
 
 class Node {
     int data; // 노드의 데이터
@@ -11,11 +11,11 @@ class Node {
     }
 }
 
-class LinkedList1 {
+class LinkedList {
     private Node head; // 연결 리스트의 첫 번째 노드(Head)
 
     // 생성자
-    public LinkedList1() {
+    public LinkedList() {
         this.head = null; // 초기에는 리스트가 비어 있음
     }
 
@@ -117,7 +117,7 @@ class LinkedList1 {
 
 public class LinkedListExample {
     public static void main(String[] args) {
-        LinkedList1 list = new LinkedList1();
+        LinkedList list = new LinkedList();
 
         // 요소 추가
         list.add(10);
