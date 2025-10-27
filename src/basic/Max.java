@@ -30,5 +30,4 @@ public class Max {
             }
         }
     }
-    //어쩔 하드
 }
